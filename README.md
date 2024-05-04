@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# LinkedIn AI Reply Chrome Extension
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This Chrome extension assists users in generating replies to LinkedIn messages. It displays an AI icon when you focus on the LinkedIn message input field and opens a modal to generate a static response. The generated response can then be inserted into the message input field.
 
-## Available Scripts
+## Features
+- AI icon appears when the LinkedIn message input field is focused.
+- Modal for generating responses.
+- Ability to insert the generated response into LinkedIn's message input field.
 
-In the project directory, you can run:
+## Technologies Used
+- **React**
+- **Tailwind CSS**
+- **JavaScript**
+- **HTML**
+- **Chrome Extension APIs**
 
-### `npm start`
+## Setup and Installation
+To set up and run the Chrome extension locally:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/coding-destini/Linkedin-AI-Reply
+   cd Linkedin-AI-Reply
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. npm install
+3. npm run build
+2. Load the extension into Chrome:
 
-### `npm test`
+Open Chrome and navigate to chrome://extensions.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Enable "Developer Mode."
 
-### `npm run build`
+Click "Load Unpacked" and select the build directory within your project.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4.Video Demonstration
+Here's a video demonstrating the functionality of the LinkedIn AI Reply Chrome Extension:
+https://drive.google.com/drive/folders/1JTk692nCJ7btLz2ZpkaNH015EbpIoDYF?usp=sharing
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+More feature will be added in future.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
